@@ -70,5 +70,3 @@ GS_process <- function(A, type = 'orthogonal') {
   }
   return(w)
 }
-
-GS_process(matrix(c(-1,1,0,-1,0,1,1,1,1), nrow = 3, byrow = T), 'orthonormal')
